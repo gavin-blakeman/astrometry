@@ -72,8 +72,18 @@ INCLUDEPATH += \
   "../"
 
 HEADERS += \
+    include/simplexy.h \
+    include/config.h \
+    include/dmedsmooth.hpp \
+    include/error.h \
+    include/dimage.h
 
 
 SOURCES += \
+    source/error.cpp \
+    source/dfind2.cpp
 
 OTHER_FILES +=
+
+DISTFILES += \
+    LICENSE
