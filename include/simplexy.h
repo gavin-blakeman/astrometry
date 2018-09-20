@@ -188,7 +188,7 @@ namespace APP
 
     std::clog << "simplexy: finding objects..." << std::endl;
 
-    limit = (sigma / (2.0 * std::sqrt(MCL::D_PI) * parameters.dpsf)) * parameters.plim;
+    limit = (sigma / (2.0 * std::sqrt(MCL::PI) * parameters.dpsf)) * parameters.plim;
 
       /* find pixels above the noise level, and flag a box of pixels around each one. */
 
